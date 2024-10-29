@@ -16,7 +16,7 @@ Settings.embed_model = JinaEmbedding(
 
 Settings.llm = Groq(
     api_key=os.getenv("GROQ_API_KEY"),
-    model="gemma-7b-it",
+    model="llama-3.1-70b-versatile",
     temperature=0.7
 )
 def create_rag_system(data_dir="./data"):
