@@ -17,7 +17,7 @@ Settings.embed_model = CohereEmbedding(
 
 Settings.llm = Groq(
     api_key=os.getenv("GROQ_API_KEY"),
-    model="llama-3-1-70b-versatile",
+    model="llama-3.1-70b-versatile",
     temperature=0.7
 )
 
